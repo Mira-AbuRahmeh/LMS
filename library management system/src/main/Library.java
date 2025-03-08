@@ -102,6 +102,7 @@ public class Library {
     }
 
     public static PriorityQueue<Book> sortByPopularity(){
+        bookQueue.clear();;
         bookQueue.addAll(collection);
         return  bookQueue;
 
